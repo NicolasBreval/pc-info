@@ -71,7 +71,7 @@ def _select_cpu_ascii_art(model_name: str, architecture: str) -> str:
         return _INTEL_ART
     if "amd" in haystack or "ryzen" in haystack or "epyc" in haystack or "threadripper" in haystack:
         return _AMD_ART
-    if "Apple" in haystack:
+    if "apple" in haystack:
         return _APPLE_ART
     return _GENERIC_CPU_ART
 
