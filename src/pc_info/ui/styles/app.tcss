@@ -1,0 +1,182 @@
+Screen {
+    layout: vertical;
+}
+
+TabbedContent {
+    width: 1fr;
+    height: 1fr;
+}
+
+ContentSwitcher {
+    width: 1fr;
+    height: 1fr;
+}
+
+TabPane {
+    width: 1fr;
+    height: 1fr;
+    padding: 0;
+}
+
+HardwareTab,
+ProcessesTab,
+IoTab {
+    width: 1fr;
+    height: 1fr;
+    padding: 1 2;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+.section-title {
+    text-style: bold;
+    color: $accent;
+    height: auto;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.summary-grid {
+    layout: horizontal;
+    width: 1fr;
+    height: auto;
+    margin-bottom: 1;
+}
+
+.card {
+    width: 1fr;
+    height: auto;
+    border: round $primary;
+    padding: 1 2;
+    margin-right: 1;
+}
+
+.card-last {
+    margin-right: 0;
+}
+
+.card-title {
+    text-style: bold;
+    height: auto;
+    margin-bottom: 1;
+}
+
+.card Static {
+    height: auto;
+}
+
+.cpu-header-grid {
+    layout: horizontal;
+    width: 1fr;
+    height: auto;
+}
+
+.cpu-details {
+    width: 1fr;
+    height: auto;
+    margin-right: 2;
+}
+
+.cpu-art {
+    width: auto;
+    height: auto;
+    color: $accent;
+}
+
+.progress-label {
+    height: auto;
+    margin-bottom: 1;
+}
+
+.chart-box {
+    width: 1fr;
+    height: auto;
+    border: round $secondary;
+    padding: 1 2;
+    margin-bottom: 1;
+}
+
+.chart-title {
+    text-style: bold;
+    height: auto;
+    margin-bottom: 1;
+}
+
+.chart-sparkline {
+    height: auto;
+    color: $success;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+.chart-meta {
+    height: auto;
+    color: $text-muted;
+}
+
+.cores-columns {
+    layout: horizontal;
+    width: 1fr;
+    height: auto;
+}
+
+.core-col-left {
+    width: 1fr;
+    height: auto;
+    margin-right: 2;
+}
+
+.core-col-right {
+    width: 1fr;
+    height: auto;
+}
+
+.chart-bars {
+    height: auto;
+}
+
+.proc-toolbar {
+    layout: horizontal;
+    width: 1fr;
+    height: auto;
+    margin-bottom: 1;
+}
+
+#proc-filter-input {
+    width: 2fr;
+    margin-right: 1;
+}
+
+#proc-sort-select {
+    width: 1fr;
+    margin-right: 1;
+}
+
+#proc-sort-dir-btn {
+    width: auto;
+    min-width: 14;
+}
+
+DataTable {
+    width: 1fr;
+    height: auto;
+    min-height: 6;
+    max-height: 14;
+    margin-bottom: 1;
+}
+
+#processes-table {
+    max-height: 20;
+    margin-bottom: 2;
+}
+
+#net-interfaces-table,
+#disk-io-table {
+    max-height: 16;
+    margin-bottom: 2;
+}
+
+#temps-summary {
+    height: auto;
+    margin-bottom: 2;
+}
