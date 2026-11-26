@@ -55,41 +55,39 @@ src/pc_info/
 
 ## Direct Installation from GitHub
 
-Replace `<owner>/<repo>` with the actual GitHub repository path.
-
 ### Using `pip`
 
 ```bash
-pip install "git+[https://github.com/](https://github.com/)<owner>/<repo>.git"
+pip install "git+https://github.com/NicolasBreval/pc-info.git"
 ```
 
 To install a specific branch, tag, or commit:
 
 ```bash
-pip install "git+[https://github.com/](https://github.com/)<owner>/<repo>.git@main"
+pip install "git+https://github.com/NicolasBreval/pc-info.git@main"
 # or:
-pip install "git+[https://github.com/](https://github.com/)<owner>/<repo>.git@v0.1.0"
+pip install "git+https://github.com/NicolasBreval/pc-info.git@v1.0.0"
 ```
 
 ### Using `uv`
 
 ```bash
-uv pip install "git+[https://github.com/](https://github.com/)<owner>/<repo>.git"
+uv pip install "git+https://github.com/NicolasBreval/pc-info.git"
 # or run directly without installing permanently:
-uvx --from "git+[https://github.com/](https://github.com/)<owner>/<repo>.git" pc-info
+uvx --from "git+https://github.com/NicolasBreval/pc-info.git" pc-info
 ```
 
 ### Using `pipx`
 
 ```bash
-pipx install "git+[https://github.com/](https://github.com/)<owner>/<repo>.git"
+pipx install "git+https://github.com/NicolasBreval/pc-info.git"
 ```
 
 ### Local Development & Tests
 
 ```bash
-git clone [https://github.com/](https://github.com/)<owner>/<repo>.git
-cd <repo>
+git clone https://github.com/NicolasBreval/pc-info.git
+cd pc-info
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
