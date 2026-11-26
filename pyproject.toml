@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pc-info"
-version = "0.1.0"
-description = "Monitor de sistema informacional multiplataforma en terminal con Textual"
+version = "1.0.0"
+description = "Multiplatform Information System Monitor on a Terminal Using Textual"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
