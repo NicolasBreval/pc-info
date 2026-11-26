@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pc-info"
-version = "1.0.0"
+version = "1.1.0"
 description = "Multiplatform Information System Monitor on a Terminal Using Textual"
 readme = "README.md"
 requires-python = ">=3.10"

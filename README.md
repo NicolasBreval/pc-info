@@ -66,7 +66,7 @@ To install a specific branch, tag, or commit:
 ```bash
 pip install "git+https://github.com/NicolasBreval/pc-info.git@main"
 # or:
-pip install "git+https://github.com/NicolasBreval/pc-info.git@v1.0.0"
+pip install "git+https://github.com/NicolasBreval/pc-info.git@v1.1.0"
 ```
 
 ### Using `uv`
